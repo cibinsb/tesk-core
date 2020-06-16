@@ -10,7 +10,7 @@ with codecs.open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 INSTALL_DEPS = ['kubernetes==6.1.0',
                 'requests>=2.20.0',
-                'urllib3==1.22']
+                'urllib3==1.24.2']
 TEST_DEPS = [ 'pytest'
             , 'fs'
             ]
